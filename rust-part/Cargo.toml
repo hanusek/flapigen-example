@@ -1,0 +1,21 @@
+[package]
+name = "cpp-example-rust-part"
+version = "0.1.0"
+authors = ["Michał Hanusek <mhanusek@o2.pl>"]
+edition = "2018"
+build = "build.rs"
+
+
+[lib]
+name = "cpp_example_rust_part"
+crate-type = ["staticlib"]
+
+
+
+[dependencies]
+flapigen = "0.6.0-pre7"
+
+[build-dependencies]
+flapigen = "0.6.0-pre7"
+
+
